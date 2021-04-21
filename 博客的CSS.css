@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+nav{
+    float: left;
+    height: 70px;
+    width: 100%;
+    background-color: #e2e1e4;
+}
+nav ul{
+        float: right;
+        margin-top: 25PX;
+        margin-right: 60px;
+        display: inline-block;
+    }
+nav li{
+    display: inline;
+    line-height: 5px;
+}
+nav ul a{
+     text-decoration: none;
+     color: #726b6b;
+}
+nav ul a:hover{
+    color: aliceblue;
+}
+.iconfont1 {
+    float: left;
+    font-family: "iconfont" ;
+    margin: 7px 0 0 20px;
+    font-size: 40px;
+    color:#726b6b;
+  }
+.iconfont1:hover{
+    color: aliceblue;
+}
+/* 以上导航栏制作 */
+.neirong{
+    float: left;
+    position: relative;
+    width: 1000px;
+    height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #93b5cf;
+}
+.neirong h1{
+    float: left;
+    display: inline-block;
+    position: absolute;
+    left: 40%;
+}
+/* 给头像设置盒子 */
+.box2-1{
+    width: 1000px;
+    height: 300px;
+}
+.touxiang{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    left: 35%;
+    transform: scale(0.3);
+    border-radius: 75px;
+    border:10px  solid #d0dfe6;
+}
+.touxiang:hover{
+    transform: scale(0.5);
+}
+.toubujieshao{
+    float: left;
+    left: 50%;
+    width: 1000px;
+    height: 80px;
+    font-size: 20px;
+    text-align:center;
+}
+.zhuti{
+    float: left;
+    width: 1000px;
+    height: 100px;
+    margin-top: 200px;
+    text-align: center;
+    color: #692a1b;
+}
+/* 侧边栏主要的盒子 */
+.daohanglan{
+    float: right;
+    width:450px;
+    height:100vh;
+    margin-top: 20px;
+    margin-right: 20px;
+    background-color: #bbb5ac;
+}
+
+.box3-1{
+    float: right;
+    position: relative;
+    width: 450px;
+    height: 121px;
+}
+.touxiang2{
+    display: inline-block;
+    float:right;  
+    position:absolute;
+    left: 32%;
+    border-radius: 50%;
+    /* 设置成圆形 */
+    overflow: hidden;
+    width: 100px;
+    border:10px  solid #d0dfe6;
+}
+.box3-2{
+    float: right;
+    position: relative;
+    right: 40%;
+    width: 130px;
+    height: 60px;
+    color:#474b4c;
+    text-align: center;
+}
+.weibo{
+    float: right;
+    font-family: "iconfont";
+    font-size: 50px;
+    margin-right: 10px;
+    color: #ed556a;
+}
+.weibo:hover{
+    color: #2177b8;
+}
+.b{
+    float: right;
+    font-family: "iconfont";
+    font-size: 50px;
+    color: #ed556a;
+}
+.b:hover{
+    color: #2177b8;
+}
