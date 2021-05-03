@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0; 
+}
+body {
+  /*background: rgb(185, 246, 246);*//*设置颜色背景*/
+  
+  background-image: url(IMG/背景图片1.jpg);/*设置背景图片*/
+  background-repeat:no-repeat;/*图片适应窗口大小，这里设置的是不进行平铺*/
+  background-attachment: fixed;/*图片相对于浏览器固定,这里设置背景图片固定，不随内容滚动*/
+  background-origin: border-box;/*从边框区域显示*/
+  background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
+
+}
+.tubiao {
+    font-family: "iconfont";
+    display: inline-block;
+    color: #c02c38;
+  }
+  .tubiao:hover{
+    color: aliceblue;
+  }
+  .firstbox{
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: 150px;
+		width:400px;
+		height:300px;
+    font-size: 150px;
+  }
+  .feiji{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: absolute;
+    bottom: 60px;
+    font-family: "iconfont";
+    font-size: 100px;
+    color: #93b5cf;
+    animation: move 10s ease-in 1s infinite backwards ;
+  }
+  /* 飞机图标的动画效果 */
+  @keyframes move {
+    0%{ 
+      transform: translate(0,0);
+    }
+    25%{
+      transform: translate(200px ,-400px);
+    }
+    50%{
+      transform: translate(1300px,-480px);
+    }
+    75%{
+      transform: translate(900px,-120px);
+    }
+  }
+.feiji:hover{
+  animation-play-state:paused;
+}
