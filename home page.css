@@ -12,6 +12,11 @@ body {
   background-size:cover;/*指定图片大小，此时会保持图像的纵横比并将图像缩放成将完全覆盖背景定位区域的最小大小*/
 
 }
+.jieshi{
+  font-size: 20px;
+  color: mediumblue;
+  text-align: center;
+}
 .tubiao {
     font-family: "iconfont";
     display: inline-block;
